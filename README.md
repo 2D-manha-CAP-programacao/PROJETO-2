@@ -1,2 +1,4 @@
-# Arthur-Bruno-Gabriel-Santos-Renato
-Arthur, Bruno, Gabriel Santos, Renato
+.Cartões {
+    display: flex;
+    
+}

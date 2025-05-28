@@ -1,0 +1,8 @@
+.Cartão {
+    border: solid black 3px;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
