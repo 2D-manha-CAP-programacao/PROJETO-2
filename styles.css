@@ -1,8 +1,28 @@
-.Cartão {
+.cartao {
     border: solid black 3px;
     background-color: gray;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 10px;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    width: 30rem;
+}
 
+.cartoes {
+    display: flex;
+    gap: 2rem;
+}
+
+footer {
+    border: solid 1px black;
+    background-color: blue;
+    position: fixed;
+    bottom: 0;
+    width: 100%;  
+}
+
+footer p{
+    margin-top:0.4rem;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
 }
