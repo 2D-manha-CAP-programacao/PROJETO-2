@@ -40,28 +40,16 @@ section {
     padding: 2rem;
 }
 
-.item {
+.cartao {
     background-color: white;
     padding: 1rem;
     border-radius: 1rem;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     transition: all 0.3s ease;
+    height: 300px;
 }
 
-.item:hover {
+.cartao:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(0,0,0,0.15);
-}
-
-.estudante:link,
-.estudante:active,
-.estudante:hover,
-.estudante:visited {
-    color: black;
-    text-decoration: none;
-}
-
-.imagem-estudante {
-    width: 100px;
-    border-radius: 1rem;
 }
