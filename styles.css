@@ -1,28 +1,67 @@
-.cartao {
-    border: solid black 3px;
-    background-color: gray;
-    padding: 2rem;
-    border-radius: 0.5rem;
-    margin-bottom: 1rem;
-    width: 30rem;
+:root {
+    --bg-color: #F9F9F7;
+
 }
 
-.cartoes {
-    display: flex;
-    gap: 2rem;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
-footer {
-    border: solid 1px black;
-    background-color: blue;
-    position: fixed;
-    bottom: 0;
-    width: 100%;  
-}
-
-footer p{
-    margin-top:0.4rem;
-    font-size: 0.9rem;
+body {
     display: flex;
     flex-direction: column;
+    background-color: var(--bg-color);
+}
+
+section {
+    margin-top: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo-principal {
+    color: black;
+}
+
+.subtitulo {
+    margin: 1rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    gap: 2rem 1rem; 
+    justify-content: space-between;
+    grid-auto-flow: row;
+    padding: 2rem;
+}
+
+.item {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.estudante:link,
+.estudante:active,
+.estudante:hover,
+.estudante:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.imagem-estudante {
+    width: 100px;
+    border-radius: 1rem;
 }
